@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #fdf3d0; 
+    color: #333;
+    padding: 25px 0;
+    text-align: center;
+}
+
+#main {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#title {
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #77544f; 
+}
+
+#img-div {
+    margin: 20px 0;
+}
+
+#image {
+    margin: auto;
+    max-width: 100%;
+    width: 50%;
+    height: 500px;
+    border: 3px solid #6a4f4b;
+    border-radius: 12px;
+}
+
+#img-caption {
+    margin: 20px 0;
+    font-style: italic;
+    font-weight: bold;
+    color: #777;
+}
+
+#tribute-info {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#tribute-link {
+    display: inline-block;
+    margin: 20px 0;
+    background-color: #77544f; 
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    transition: background-color 0.5s;
+}
+
+#tribute-link:hover {
+    background-color: #9b554b; 
+}
+
+@media (max-width: 850px){
+    #main {
+        width: 700px;
+    }
+}
+
+@media (max-width: 750px){
+    #main {
+        width: 600px;
+    }
+}
+
+@media (max-width: 650px){
+    #main {
+        width: 500px;
+    }
+}
+
+@media (max-width: 550px){
+    #main {
+        width: 400px;
+    }
+
+    #image {
+        max-width: 100%;
+        width: 50%;
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px){
+    #main {
+        width: 300px;
+    }
+
+    #image {
+        max-width: 100%;
+        width: 50%;
+        height: 250px;
+    }
+}
+
+@media (max-width: 350px){
+    #main {
+        width: 270px;
+        padding: 5px 10px;
+    }
+
+    #title{
+        font-size: 1rem;
+    }
+
+    #image {
+        max-width: 100%;
+        width: 50%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 310px){
+    #main {
+        width: 250px;
+    }
+}
+
+@media (max-width: 275px){
+    #main {
+        width: 200px;
+    }
+
+    #img-caption{
+        font-size: 0.875rem;
+    }
+
+    #tribute-link{
+        font-size: 1rem;
+    }
+}
